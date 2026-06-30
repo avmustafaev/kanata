@@ -1,0 +1,35 @@
+(defcfg
+  ;; Указываем ОБА устройства Telink, которые нашла kanata
+  linux-dev-names-include (
+    "Telink Wireless Device"
+    "Telink Wireless Device Consumer Control"
+  )
+)
+
+;; defsrc оставляем пустым, так как используем deflayermap
+(defsrc
+  kp0
+  kp1
+  kp2
+  kp3
+  kp4
+  kp5
+  kp6
+  kp7
+  kp8
+  kp9
+)
+
+
+(deflayer default
+  A-0
+  A-1
+  A-2
+  A-3
+  A-4
+  A-5
+  A-6
+  A-7
+  A-8
+  A-9
+)

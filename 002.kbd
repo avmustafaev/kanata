@@ -1,0 +1,14 @@
+(defcfg
+  ;; Указываем, что работаем ТОЛЬКО с клавиатурой Logitech K580
+  linux-dev-names-include ("Logitech K580")
+)
+
+;; Определяем слой по умолчанию, указывая ТОЛЬКО клавишу Caps Lock
+(defsrc
+  caps
+)
+
+;; Применяем изменения к слою по умолчанию
+(deflayer default
+  A-d
+)
