@@ -1,0 +1,26 @@
+(defcfg
+  ;; Указываем, что работаем ТОЛЬКО с клавиатурой Logitech K580
+  linux-dev-names-include ("Logitech K580")
+)
+
+;; Определяем слой по умолчанию
+(defsrc
+  q
+  f
+  m
+  s
+  l
+  o
+  x
+)
+
+;; Применяем изменения к слою по умолчанию
+(deflayer default
+  (tap-hold 200 200 q A-S-q)
+  (tap-hold 200 200 f A-1)
+  (tap-hold 200 200 m A-2)
+  (tap-hold 200 200 s A-4)
+  (tap-hold 200 200 l A-0)
+  (tap-hold 200 200 o A-3)
+  (tap-hold 200 200 x A-x)
+)

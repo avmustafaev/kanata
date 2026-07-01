@@ -1,0 +1,23 @@
+(defcfg
+  linux-dev-names-include (
+    "Telink Wireless Device"
+    "Telink Wireless Device Consumer Control"
+  )
+  process-unmapped-keys yes
+)
+
+(defsrc)
+
+(deflayermap (base-layer)
+  kp0 A-0
+  kp1 A-1
+  kp2 A-2
+  kp3 A-3
+  kp4 A-4
+  kp5 A-5
+  kp6 A-6
+  kp7 A-7
+  kp8 A-8
+  kp9 A-9
+  f23 z
+)
